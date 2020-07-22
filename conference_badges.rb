@@ -1,7 +1,7 @@
 names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-def badge_maker(names)
-  return "Hello, my name is #{names"
+def badge_maker(name)
+  return "Hello, my name is #{name}."
 def batch_badge_creator(names)
   name_badges = names.collect { |name| "Hello, my name is " + name + "." }
   
