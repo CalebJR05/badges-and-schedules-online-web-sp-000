@@ -4,8 +4,8 @@ def batch_badge_creator(names)
   name_badges = names.collect { |name| "Hello, my name is" + name }
   
   end
-  
-  return name_badges
+end
+
 
 def assign_rooms(names)
   names.map.with_index {|name, index| "Hello," + name "!" "You'll be assigned to room" + (index + 1) "!"}
@@ -18,6 +18,7 @@ def printer(names)
  end
  assign_rooms(names).each do |assignment|
   puts assignment
+  
  end
 end
   
